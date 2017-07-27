@@ -76,7 +76,6 @@ a:hover, a:active{
 }
 
 .maincontent{
-  height:100%;
   width:100%;
   padding-left:10%;
   padding-right: 10%
@@ -289,7 +288,41 @@ float:right;
 }
 
 
+/* CONFERENCE PAGE */
+.conferenceimg{
+  background-image: url("https://www.sitebuilderreport.com/assets/facebook-stock-up-446fff24fb11820517c520c4a5a4c032.jpg");
+  background-size: cover;
+  height:400px;
+  margin-top:40px;
+}
 
+.icon{
+  background-size: cover;
+  height:80px;
+  width:80px;
+}
+
+.about{
+  background-image: url(img/info.png);
+}
+
+.time{
+  background-image: url(img/clock.png)
+}
+.blueborder{
+  border-color:rgba(0,145,234,1);
+  width:40%;
+  border-width:2px;
+}
+
+.centerholder{
+  background-color:white;
+  padding:50px;
+}
+
+.conference{
+  margin-top:80px;
+}
 
 
 
