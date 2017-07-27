@@ -17,19 +17,61 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 
 </head>
-<body>
+<body class = "graybg">
 
 	
-		<div class = "navbarpage">
-			<ul>			
-				<li><a class = "homebut active" href = "contact.html">Contact Us</a></li>
-				<li><a class = "homebut" href = "incubator.html">Incubator</a></li>
-				<li><a class = "homebut " href = "conference.html">Conference</a></li>
-				<li><a class = "homebut" href = "marketing.html">Marketing</a></li>
-				<li><a href = "index.html" class = "homebut">Home</a></li>
+	<div class = "navbarpage">
+		<ul>			
+			<li><a class = "homebut active" href = "contact.html">Contact Us</a></li>
+			<li><a class = "homebut" href = "incubator.html">Incubator</a></li>
+			<li><a class = "homebut " href = "conference.html">Conference</a></li>
+			<li><a class = "homebut" href = "marketing.html">Marketing</a></li>
+			<li><a href = "index.html" class = "homebut">Home</a></li>
+		</ul>
+	</div>
 
-			</ul>
+	<div class = "maincontent">
+		<div class = "contactpage">
+			<div class = "centerholder">
+				<center>
+					<h1 class = "conthead">Contact Us</h1>
+					<hr class = 'bluebord'>
+				</center>
+				<form action="https://formspree.io/yash0314@gmail.com"
+      method="POST">
+				<div class = "row">
+					<div class = "col-md-6 ">
+						<p class = "inputhead">NAME:</p>
+						<input type = "text" name = "Name" class = "formfill"></input>
+					</div>
+					<div class = "col-md-6">
+						<p class = "inputhead">SUBJECT:</p>
+						<input type = "text" name = "Subject" class = "formfill"></input>
+					</div>
+				</div>
+				<br>
+				<div class = "row">
+					<div class = "col-md-12 ">
+						<p class = "inputhead">MESSAGE:</p>
+						<textarea type = "text" name = "Message" class = "formfill textarea" rows = "6" required></textarea>
+					</div>
+				</div><br>
+				<div class = "row">
+					<div class = "col-md-6">
+						<p class = "inputhead">EMAIL:</p>
+						<input type = "email" name="_replyto" class = "formfill"></input>
+					</div>
+					<div class = "col-md-6">
+						
+						<button type = "submit" value = "send" class = "submit">SUBMIT</button>
+					</div>
+				</div>
+				</form>
+			</div>
+
+			
 		</div>
+	</div>
 	
 		
 
