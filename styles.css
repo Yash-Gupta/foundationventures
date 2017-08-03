@@ -374,11 +374,25 @@ float:right;
   border-width: 4px
 }
 
+/*INCUBATOR PAGE*/
+.qholder{
+  background-color:#2196F3;
+  text-align: center;
+  color:white;
+}
 
+.qanswer{
+  background-color:white;
+  padding:50px;
+}
 
+.nopadding{
+  padding-left:0px;
+}
 
-
-
+.firsthalf{
+  height:calc(45%);
+}
 
 
 
