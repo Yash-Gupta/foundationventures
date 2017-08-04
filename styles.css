@@ -439,5 +439,47 @@ float:right;
   transition: 0.3s all;
 }
 
+.whitebg{
+  background-color: white;
+  padding:80px;
+}
+
+.teamimg{
+  width:100%;
+
+
+}
+
+
+.officername{
+  font-family: "Lato";
+  font-weight: 800;
+  color:#00B0FF;
+  font-size: 20px;
+}
+
+.officerrole{
+  font-family: "Lato";
+  font-weight: 800;
+  color:#424242;
+  font-size: 15px
+}
+
+.officerdesc{
+  font-family: "Lato";
+  font-weight: 300;
+  color:#424242;
+  font-size: 16px
+}
+
+.padding{
+  padding:30px;
+}
+
+
+
+
+
+
 
 
