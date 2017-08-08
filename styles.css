@@ -53,6 +53,9 @@
 button {
   outline: none !important; 
 }
+input, textarea{
+  outline:none !important;
+}
 .row{
   display:block;
 }
@@ -172,7 +175,7 @@ float:right;
 /*HOME PAGE */
 .homebg{
 	width:100%;
-	height:100%;
+	height:80%;
 	background-image:url("http://img02.deviantart.net/70b2/i/2013/126/a/a/dusk_on_mountains_stock_by_leeorr_stock-d64an76.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -215,6 +218,53 @@ float:right;
 .navbar>ul>li>a{
   text-decoration:none;
   color:white;
+}
+
+.foundation{
+  /*background-color: rgba(255,255,255,0.6);
+  width:60%;
+  margin-top:160px;
+  padding:40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;*/
+  width:60%;
+  margin-top:160px;
+  padding:60px;
+  border: solid 4px rgba(255,255,255,1);
+}
+
+.hometitle{
+  font-size: 62px;
+  vertical-align: middle;
+  color:rgba(255,255,255,1);
+}
+
+.homecont{
+  color:white;
+  font-size: 18px;
+  font-family: "Lato";
+  font-weight: 300;
+  margin-top:;
+}
+
+.branchtitle{
+  padding:80px;
+}
+
+.branchcard{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding:40px;
+  font-family: "Lato";
+}
+
+.bratit{
+  font-weight: 800;
+  font-size: 32px
+}
+
+.bluehr{
+  border-color: rgba(0,145,234,0.6);
+  border-width: 2px
 }
 
 /* MARKETING PAGE */
