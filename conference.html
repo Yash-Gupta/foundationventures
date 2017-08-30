@@ -1,17 +1,12 @@
 <html>
 <head>
 	<title>Conference</title>
-	<!-- Latest compiled and minified Bootstrap CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-	<!-- Latest compiled and minified Bootstrap JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-	<!-- Latest compiled and minified jQuery -->
-	<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
 
   <script src="https://use.fontawesome.com/8130789d52.js"></script>
 
@@ -23,24 +18,96 @@
 
 	
 	<div class = "navbarpage">
-		<ul>			
-			<li><a class = "homebut" href = "contact.html">Contact Us</a></li>
-			<li><a class = "homebut" href = "team.html">Our Team</a></li>
-			<li><a class = "homebut" href = "newspaper.html">Newspaper</a></li>
-			<li><a class = "homebut" href = "incubator.html">Incubator</a></li>
-			<li><a class = "homebut active" href = "conference.html">Conference</a></li>
-			<li><a class = "homebut" href = "marketing.html">Marketing</a></li>
-			<li><a href = "index.html" class = "homebut">Home</a></li>
+		<div id="threebar" style="margin-right:0px;padding:10px 20px;color:white;">
+			☰
+		</div>
+		<div class="" id="mobileNav" style="">
+			
+			<div id="cross" style="margin-right:0px;padding:10px 20px;font-size:80px;color:white;">
+				&#735;
+			</div>
+			
+			<a class="mobilehom" href="index.html">Home</a>
+			<a class="mobilehom" href="marketing.html">Marketing</a>
+			<a class="mobilehom" href="conference.html">Conference</a>
+			<a class="mobilehom" href="incubator.html">Incubator</a>
+			<a class="mobilehom" href="newspaper.html">Newspaper</a>
+			<a class="mobilehom" href="team.html">Our Team</a>
+			<a class="mobilehom" href="contact.html">Contact Us</a>
+			
+		</div>
+		<div class = "navbarmob">
+			<ul>			
+				<li><a class = "homebut" href = "contact.html">Contact Us</a></li>
+				<li><a class = "homebut" href = "team.html">Our Team</a></li>
+				<li><a class = "homebut" href = "newspaper.html">Newspaper</a></li>
+				<li><a class = "homebut" href = "incubator.html">Incubator</a></li>
+				<li><a class = "homebut active" href = "conference.html">Conference</a></li>
+				<li><a class = "homebut" href = "marketing.html">Marketing</a></li>
+				<li><a href = "index.html" class = "homebut">Home</a></li>
 
-		</ul>
+			</ul>
+		</div>
 	</div>
 
 	<div class = "maincontent">
-		<div class = "conferenceimg">
-		</div>
+		<!--<div class = "conferenceimg">
+		</div>-->
+		<center>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	    <!-- Indicators -->
+	    <ol class="carousel-indicators">
+	      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	      <li data-target="#myCarousel" data-slide-to="1"></li>
+	      <li data-target="#myCarousel" data-slide-to="2"></li>
+	      <li data-target="#myCarousel" data-slide-to="3"></li>
+	      <li data-target="#myCarousel" data-slide-to="4"></li>
+	      <li data-target="#myCarousel" data-slide-to="5"></li>
+	      <li data-target="#myCarousel" data-slide-to="6"></li>
+	    </ol>
+
+	    <!-- Wrapper for slides -->
+	    <div class="carousel-inner">
+	      <div class="item active">
+	        <img src="img/1.png" alt="conference" class = "carheight">
+	      </div>
+
+	      <div class="item">
+	        <img src="img/2.png" alt="conference" class = "carheight">
+	      </div>
+	    
+	      <div class="item">
+	        <img src="img/3.png" alt="conference " class="carheight">
+	      </div>
+	      <div class="item">
+	        <img src="img/4.png" alt=" conference" class="carheight">
+	      </div>
+	      <div class="item">
+	        <img src="img/5.png" alt="conference " class="carheight">
+	      </div>
+	      <div class="item">
+	        <img src="img/6.png" alt="conference " class="carheight">
+	      </div>
+	      <div class="item">
+	        <img src="img/7.png" alt="conference " class="carheight">
+	      </div>
+	    </div>
+
+	    <!-- Left and right controls -->
+	    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+	      <span class="glyphicon glyphicon-chevron-left"></span>
+	      <span class="sr-only">Previous</span>
+	    </a>
+	    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+	      <span class="glyphicon glyphicon-chevron-right"></span>
+	      <span class="sr-only">Next</span>
+	    </a>
+	  </div>
+	</center>
+
 
 		<div class = "row conference">
-			<div class = "col-md-6">
+			<div class = "col-md-6" id = "nomargintop">
 				<center class = "centerholder">
 					<div class = "icon about">
 					</div><br>
@@ -105,6 +172,7 @@
 				</div>
 		</div>
 	</footer>
+	<script src="navbar.js"></script>
 
 
 
