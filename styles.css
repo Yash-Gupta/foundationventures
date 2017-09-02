@@ -658,6 +658,19 @@ float:right;
   .navbarpage{
     padding-top:0px;
   }
+
+  #myCarousel{
+    width:300px;
+    height:202px;
+  }
+  .carousel-inner{
+    width:300px;
+    height:202px;
+  }
+
+  .carheight{
+    height:202px !important;
+  }
 }
 @media (max-device-width: 990px) {
   .col-md-6{
