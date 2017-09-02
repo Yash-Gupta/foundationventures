@@ -346,8 +346,23 @@ float:right;
 .branchone{
   background-image:url("https://www.sitebuilderreport.com/assets/facebook-stock-up-446fff24fb11820517c520c4a5a4c032.jpg");
   background-size: cover;
+  background-position: 50% 50%;
   height:300px;
 }
+
+.fremont{
+  background-image:url("https://images1.apartments.com/i2/Gr0uBRVE43zqJMdfQdoupeNhsRPfv8a3Fhg6REEWEB0/110/fremont-ca-city-profile-image.jpg");
+}
+.sanramon{
+  background-image:url("https://www.uniquevenues.com/sites/uniquevenues.com/files/imagecache/2015_venue_flexslider/venues/slideshow/_DSF4818-1.jpg");
+}
+.palo{
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/f/f3/Wfm_palo_alto.jpg");
+}
+.sanjose{
+  background-image:url("http://media.istockphoto.com/photos/downtown-san-jose-california-in-silicon-valley-picture-id172279549?k=6&m=172279549&s=612x612&w=0&h=QBQPDDBz6hEp7YhSrdFMjc6YjX3kYv6tUE9l84AJtt8=");
+}
+
 .branchcontent{
   padding:50px;
   background-color:white;
@@ -370,8 +385,9 @@ float:right;
 
 /* CONFERENCE PAGE */
 .conferenceimg{
-  background-image: url("https://www.sitebuilderreport.com/assets/facebook-stock-up-446fff24fb11820517c520c4a5a4c032.jpg");
+  background-image: url("https://thenextweb.com/wp-content/blogs.dir/1/files/2015/04/businessstartup.jpg");
   background-size: cover;
+  background-position: 50% 100%;
   height:400px;
   margin-top:40px;
 }
@@ -412,6 +428,14 @@ float:right;
 #myCarousel{
   width:860px;
   margin-top:80px;
+}
+
+.officerlistcon{
+  font-family: "Lato";
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 200%;
 }
 
 /* CONTACT PAGE */
@@ -536,12 +560,49 @@ float:right;
   padding:80px;
 }
 
-.teamimg{
-  width:100%;
-
-
+.shawn{
+  background-image: url("img/shawn.webp");
 }
 
+.dani{
+  background-image: url("img/dani.webp");
+}
+
+.jocelyn{
+  background-image: url("img/jocelyn.webp");
+}
+
+.jack{
+  background-image: url("img/jack.webp");
+}
+
+.jessica{
+  background-image: url("img/jessica.webp");
+}
+
+.advait{
+  background-image: url("img/advait.webp");
+}
+
+.sabrina{
+  background-image: url("img/sabrina.webp");
+}
+
+.meghana{
+  background-image: url("img/meghana.webp");
+}
+
+.grace{
+  background-image: url("img/grace.webp");
+}
+.teamimg{
+  width:100%;
+  height:300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+}
 
 .officername{
   font-family: "Lato";
